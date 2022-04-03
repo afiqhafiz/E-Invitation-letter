@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>
+		My first form
+	</title>
+</head>
+
+<body>
+
+<h1>INSERTING DATA FROM WEB FORM INTO DATABASE</h1>
+
+<form action="lab_process.php" method="post">
+
+  <label for="name">What is your name:</label>
+  <input type="text" id="name" name="name"><br><br>
+
+  <label for="OS">What OS do you use:</label>
+
+	<select name="OS" id="OS">
+  		<option value="Mac">Mac</option>
+  		<option value="Windows">Windows</option>
+ 		<option value="Linux">Linux</option>
+ 	</select>
+<br>
+
+ 	Have you learn php? 
+ 	<br>
+ 	<input type="radio" id="Yes" name="php" value="Yes">
+	<label for="Yes">Yes</label><br>
+	<input type="radio" id="No" name="php" value="No">
+	<label for="No">No</label><br>
+
+	<label for="favoriteWeb">What are your favorite web:</label>
+
+	<textarea id="favoriteWeb" name="favoriteWeb" rows="4" cols="50">
+	</textarea><br>
+	
+	<label for="Send"> Send me the news:</label>
+	<input type="checkbox" id="Send" name="Send" value="Send">
+	<br>
+
+
+
+  <input type="submit" value="Submit">
+  <input type="reset">
+
+</form>
+
+</body>
+</html>
