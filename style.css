@@ -1,0 +1,128 @@
+h1 {
+    text-align: center;
+    font-size: 4em;
+    color: #b6a87a;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 2em;
+  color: #b6a87a;
+}
+h3 {
+  font-family: 'Great Vibes';
+  font-size: 0.05em;
+  color: #b6a87a;
+}
+
+h4 {
+  font-family: 'Great Vibes';
+  font-size: 0.03em;
+  color: #b6a87a;
+}
+
+
+
+p{
+  font-family: 'Montserrat';
+  font-size: 0.8em;
+}
+body {
+    margin: 0;
+    font-family: 'Great Vibes';
+    font-size: 0.8em;
+    color: #1F2833;
+    background-image: url("img/bgtest.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.about {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #b6a87a;
+}
+
+.button {
+    padding: 5px 25px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: black;
+    border-width: 1.5px;
+    font-size: 0.8em;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #1F2833;
+    color: #b6a87a;
+}
+.song {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 0;
+    padding-bottom: 30px;
+    width: 70%;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.song1 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 0;
+    padding-bottom: 30px;
+    width: 70%;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #b6a87a;
+
+}
+.song2 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 0;
+    padding-bottom: 30px;
+    width: 50%;
+    border: 1px solid lightgrey;
+    border-radius: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #b6a87a;
+    font-size: 100em;
+
+}
+
+.songs {
+
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 0;
+    padding-bottom: 30px;
+    width: 35%;
+    border: 1px solid lightgrey;
+    border-radius: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #b6a87a;
+
+}
